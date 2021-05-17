@@ -112,7 +112,8 @@ app.post("/email",async (req,res)=>{
                     from: 'unnamedbot2oo5@gmail.com', // TODO: email sender
                     to: req.body.email, // TODO: email receiver
                     subject: 'Password reset',
-                    text: `Reset your password using the below link : https://zealous-nightingale-3759e6.netlify.app/reset/${user[0]._id}`
+                    text: `Reset your password using the below link : 
+                           https://zealous-hawking-493cad.netlify.app/reset/${user[0]._id}`
                 };
                 
                 // Step 3
